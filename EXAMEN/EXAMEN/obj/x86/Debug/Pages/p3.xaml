@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="EXAMEN.Pages.p3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EXAMEN.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FFD8D8D8" Width="979" Height="720" MinWidth="979" MinHeight="720" MaxWidth="979" MaxHeight="720">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="53" Margin="69,42,0,0" Text="ESTRATEGIAS" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" FontSize="35" Foreground="#FF303030" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Height="534" Margin="69,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" Foreground="#FF272727" FontSize="20" TextAlignment="Justify"><Run Text="Los objetivos estratégicos mundiales son los siguientes:"/><LineBreak/><Run/><LineBreak/><Run Text=" "/><LineBreak/><Run Text="Movilizar a todos los sectores y comunidades para garantizar que cada sector del gobierno y de la sociedad asuma la responsabilidad y participe en la respuesta y en la prevención de casos mediante la higiene de manos, el protocolo de higiene respiratoria y el distanciamiento físico a nivel individual. "/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run Text="Controlar los casos esporádicos y grupos de casos y prevenir la transmisión comunitaria mediante la detección rápida y el aislamiento de todos los casos, la prestación de los cuidados adecuados y la trazabilidad, cuarentena y apoyo de todos los contactos. "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="589" Margin="514,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="404" FontSize="20" Foreground="#FF323232" TextAlignment="Justify"><Run Text="Contener la transmisión comunitaria mediante la prevención del contagio y medidas de control adecuadas al contexto, medidas de distanciamiento físico a nivel de la población y restricciones adecuadas y proporcionadas en los viajes domésticos e internacionales no esenciales."/><LineBreak/><Run/><LineBreak/><Run Text=" "/><LineBreak/><Run Text="Reducir la mortalidad prestando una atención clínica adecuada a los enfermos de COVID 19, asegurando la continuidad de los servicios sanitarios y sociales esenciales y protegiendo a los trabajadores de primera línea y las poblaciones vulnerables."/><LineBreak/><Run/><LineBreak/><Run Text=" "/><LineBreak/><Run Text="Desarrollar vacunas y terapias seguras y eficaces que puedan ofrecerse a escala y que estén accesibles en función de la necesidad."/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="69,192,0,0" Text="MOVILIZAR" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="20" Foreground="#FF347A8F"/>
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="69,430,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="20" Foreground="#FF347A8F"><Run Text="CONTROLAR"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="514,498,0,0" Text="DESARROLLAR" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="20" Foreground="#FF347A8F"/>
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="514,286,0,0" Text="REDUCIR" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="20" Foreground="#FF347A8F"/>
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="514,44,0,0" Text="CONTENER" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="20" Foreground="#FF347A8F"/>
+
+    </Grid>
+</Page>
+

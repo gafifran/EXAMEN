@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="EXAMEN.Pages.p2_5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EXAMEN.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FFD8D8D8" Width="979" Height="720" MinWidth="979" MinHeight="720" MaxWidth="979" MaxHeight="720">
+
+    <Grid>
+
+        <TextBlock HorizontalAlignment="Left" Height="66" Margin="99,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="484" Foreground="#FF303030" FontSize="60" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"><Run Text="FASE "/><Run Text="5"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="720" Margin="600,0,0,0" VerticalAlignment="Center" Width="379" Source="/Assets/images/i2_6.jpg" Stretch="UniformToFill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="72,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="454" Width="451" FontSize="22" TextAlignment="Justify" Foreground="#FF363636"><Run Text="La OMS informará cuando el Periodo de Pandemia ha finalizado, lo que probablemente será después de 2 o 3 años."/><LineBreak/><Run/><LineBreak/><Run Text="La OMS realizará Valoración del impacto global de la pandemia. Evaluación de lecciones aprendidas a partir de la pandemia que ayudarán en las respuestas a futuras pandemias. Actualización del Plan de Pandemia de Influenza de la OMS."/><LineBreak/><Run/></TextBlock>
+
+    </Grid>
+</Page>

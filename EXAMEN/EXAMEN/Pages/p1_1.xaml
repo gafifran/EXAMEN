@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="EXAMEN.Pages.p1_1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EXAMEN.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="979" Height="720" MinWidth="979" MinHeight="719" MaxWidth="979" MaxHeight="720">
+
+    <Grid Width="979" Height="720" MinWidth="979" MaxWidth="979" MinHeight="720" MaxHeight="720">
+        <WebView x:Name="webv1" Source="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses?gclid=Cj0KCQjwoub3BRC6ARIsABGhnyaNlNos3PfPRZDgEM3HVKGHEAvhKK-zbypDOi-lAE7awW4cYjVUu9QaAoNCEALw_wcB" UseLayoutRounding="True"/>
+
+    </Grid>
+</Page>

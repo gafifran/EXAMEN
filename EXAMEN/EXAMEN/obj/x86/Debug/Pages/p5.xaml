@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="EXAMEN.Pages.p5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EXAMEN.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FFD8D8D8" Width="979" Height="721" MinWidth="979" MinHeight="720" MaxWidth="979" MaxHeight="720">
+
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="720" VerticalAlignment="Center" Width="410" Source="/Assets/images/firma.JPG" Stretch="UniformToFill" FocusVisualPrimaryBrush="White"/>
+    </Grid>
+</Page>
+

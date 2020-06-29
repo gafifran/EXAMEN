@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="EXAMEN.Pages.p2_2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EXAMEN.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FFD8D8D8" Width="979" Height="716" MinWidth="979" MinHeight="720" MaxWidth="979" MaxHeight="720">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="512" Margin="99,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="454" FontSize="22" Foreground="#FF212121" TextAlignment="Justify"><Run Text="Este Nivel de Preparación existirá cuando los"/><Run Text=" "/><Run Text="brotes y epidemias estén ocurriendo en varios"/><Run Text=" "/><Run Text="países, y la propagación región por región"/><Run Text=" "/><Run Text="atraviese el mundo"/><Run Text=".&#xA;&#xA;Continuará el trabajo con oficinas"/><Run Text=" "/><Run Text="regionales apropiadamente para"/><Run Text=" "/><Run Text="incentivar actividades"/><Run Text=" "/><Run Text="comunes entre las"/><Run Text=" "/><Run Text="naciones."/><Run Text=" "/><Run Text="Continuará el"/><Run Text=" "/><Run Text="monitoreo y reporte de la"/><Run Text=" "/><Run Text="propagación global"/><Run Text=" "/><Run Text="e impacto del virus."/><LineBreak/><Run Text="&#xA;"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="66" Margin="99,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="484" Foreground="#FF303030" FontSize="60" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"><Run Text="FASE "/><Run Text="2"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="720" Margin="600,0,0,0" VerticalAlignment="Center" Width="379" Source="/Assets/images/i2_3.jpg" Stretch="UniformToFill"/>
+
+    </Grid>
+</Page>
+

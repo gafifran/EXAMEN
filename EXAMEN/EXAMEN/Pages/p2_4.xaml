@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="EXAMEN.Pages.p2_4"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EXAMEN.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FFD8D8D8" Width="979" Height="720" MinWidth="979" MinHeight="720" MaxWidth="979" MaxHeight="720">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="512" Margin="99,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="391" FontSize="22" Foreground="#FF212121" TextAlignment="Justify"><Run Text="Basado en las experiencias pasadas, al menos"/><LineBreak/><Run Text=" "/><Run Text="una segunda ola severa de brotes causados"/><Run Text=" "/><Run Text="por el nuevo virus sería esperable que ocurra"/><Run Text=" "/><Run Text="dentro de los 3 – 9 meses de la epidemia"/><Run Text=" "/><Run Text="inicial en muchos países.&#xA;&#xA;Continuará el trabajo con oficinas"/><Run Text=" "/><Run Text="regionales apropiadamente para"/><Run Text=" "/><Run Text="incentivar actividades"/><Run Text=" "/><Run Text="comunes entre las"/><Run Text=" "/><Run Text="naciones."/><Run Text=" Estimará las"/><Run Text=" "/><Run Text="necesidades remanentes de"/><Run Text=" "/><Run Text="vacunas."/><Run Text=" "/><Run Text="Estimará"/><Run Text=" "/><Run Text="la disponibilidad de drogas"/><Run Text=" "/><Run Text="antivirales.&#xA;"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="66" Margin="99,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="484" Foreground="#FF303030" FontSize="60" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"><Run Text="FASE "/><Run Text="4"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="404" Margin="534,0,0,0" VerticalAlignment="Center" Width="445" Source="/Assets/images/i2_5.jpg" Stretch="Uniform" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform ScaleY="-1"/>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Page>
